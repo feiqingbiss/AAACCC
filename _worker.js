@@ -16,25 +16,17 @@ let disableech = true;  // 是否关闭ECH, 设置为true时关闭，false开启
 
 // CDN 
 let cfip = [ // 格式:优选域名:端口#备注名称、优选IP:端口#备注名称、[ipv6优选]:端口#备注名称、优选域名#备注 
-    // === 保留的原 HK 优选域名 ===
-    'saas.sin.fan#HK', 'cf.877774.xyz#HK',
-    
-    // === 🌐 Cloudflare 优选 IP（第一部分：30个） ===
-    '172.64.159.79#CF-IP1', '172.64.150.64#CF-IP2', '172.64.144.224#CF-IP3', 
-    '104.18.40.77#CF-IP5', '172.64.155.159#CF-IP6', '172.64.152.94#CF-IP7', 
-    '172.64.156.99#CF-IP9', '172.64.147.110#CF-IP10', '104.18.40.189#CF-IP11', 
-    '172.64.156.156#CF-IP13', '104.18.46.111#CF-IP14', '104.18.40.152#CF-IP15', '172.64.147.67#CF-IP16',
-    '104.18.44.151#CF-IP17', '104.18.33.225#CF-IP18', '104.17.147.21#CF-IP19', '104.17.146.69#CF-IP20',
-    '172.64.158.29#CF-IP21', '104.17.154.108#CF-IP22', '104.18.35.200#CF-IP23', '104.18.39.78#CF-IP24',
-    '104.18.46.37#CF-IP25',  '104.17.155.92#CF-IP28',
-    '172.64.146.125#CF-IP29', '104.18.42.221#CF-IP30',
+    // === 你已验证的高速节点（主力，直接保留） ===
+    'saas.sin.fan#HK', 
+    'cf.877774.xyz#HK', 
+    'cfd.url0.top#HK', 
+    'ehvip.93at.com#US',
 
-    // === 🌐 第二部分 ≥80分域名（15个） ===
-    'yg8.ygkkk.dpdns.org#CF-DOMAIN1', 'www.aneko.ink#CF-DOMAIN3',
-    'blog.raindew.576555.xyz#CF-DOMAIN4', 'ctsg.cfyx.aliyun.20237737.xyz#CF-DOMAIN6',
-    'cf.legspcpd.top#CF-DOMAIN7', 'cf.090227.xyz#CF-DOMAIN8', 'www.galgamex.net#CF-DOMAIN9',
-    'cdn.2x.nz#CF-DOMAIN10', 'comet57.cf.090227.xyz#CF-DOMAIN11', 
-    'youxuan.cf.090227.xyz#CF-DOMAIN13', 'yx.cf.090227.xyz#CF-DOMAIN14', 'cf.yj250.bond#CF-DOMAIN15',
+    // === 更多10月前后活跃的候选（优先测试） ===
+    'bestcf.030101.xyz#MOBILE',     // Mingyu 维护，移动专属
+    'cloudflare.182682.xyz#SG',     // WeTest.Vip 维护，高频更新
+    // === 其他社区提及的备选（轮换测试） ===
+    'cdn.2020111.xyz#US',     // 社区高频维护（10分钟/次），可作后备 
 ];  // 在此感谢各位大佬维护的优选域名
 
 const S5 = 's' + 'ocks5';
