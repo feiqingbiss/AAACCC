@@ -20,20 +20,20 @@ let cfip = [ // 格式:优选域名:端口#备注名称、优选IP:端口#备注
     'saas.sin.fan#HK', 'cf.877774.xyz#HK',
     
     // === 🌐 Cloudflare 优选 IP（第一部分：30个） ===
-    '172.64.159.79#CF-IP1', '172.64.150.64#CF-IP2', '172.64.144.224#CF-IP3', '172.64.42.1#CF-IP4',
-    '104.18.40.77#CF-IP5', '172.64.155.159#CF-IP6', '172.64.152.94#CF-IP7', '162.159.60.59#CF-IP8',
-    '172.64.156.99#CF-IP9', '172.64.147.110#CF-IP10', '104.18.40.189#CF-IP11', '162.159.35.20#CF-IP12',
+    '172.64.159.79#CF-IP1', '172.64.150.64#CF-IP2', '172.64.144.224#CF-IP3', 
+    '104.18.40.77#CF-IP5', '172.64.155.159#CF-IP6', '172.64.152.94#CF-IP7', 
+    '172.64.156.99#CF-IP9', '172.64.147.110#CF-IP10', '104.18.40.189#CF-IP11', 
     '172.64.156.156#CF-IP13', '104.18.46.111#CF-IP14', '104.18.40.152#CF-IP15', '172.64.147.67#CF-IP16',
     '104.18.44.151#CF-IP17', '104.18.33.225#CF-IP18', '104.17.147.21#CF-IP19', '104.17.146.69#CF-IP20',
     '172.64.158.29#CF-IP21', '104.17.154.108#CF-IP22', '104.18.35.200#CF-IP23', '104.18.39.78#CF-IP24',
-    '104.18.46.37#CF-IP25', '108.162.198.89#CF-IP26', '162.159.60.239#CF-IP27', '104.17.155.92#CF-IP28',
+    '104.18.46.37#CF-IP25',  '104.17.155.92#CF-IP28',
     '172.64.146.125#CF-IP29', '104.18.42.221#CF-IP30',
 
     // === 🌐 第二部分 ≥80分域名（15个） ===
-    'yg8.ygkkk.dpdns.org#CF-DOMAIN1', 'cf.xreak.top#CF-DOMAIN2', 'www.aneko.ink#CF-DOMAIN3',
-    'blog.raindew.576555.xyz#CF-DOMAIN4', 'ping.ctrl.li#CF-DOMAIN5', 'ctsg.cfyx.aliyun.20237737.xyz#CF-DOMAIN6',
+    'yg8.ygkkk.dpdns.org#CF-DOMAIN1', 'www.aneko.ink#CF-DOMAIN3',
+    'blog.raindew.576555.xyz#CF-DOMAIN4', 'ctsg.cfyx.aliyun.20237737.xyz#CF-DOMAIN6',
     'cf.legspcpd.top#CF-DOMAIN7', 'cf.090227.xyz#CF-DOMAIN8', 'www.galgamex.net#CF-DOMAIN9',
-    'cdn.2x.nz#CF-DOMAIN10', 'comet57.cf.090227.xyz#CF-DOMAIN11', 'cfyx.aliyun.20237737.xyz#CF-DOMAIN12',
+    'cdn.2x.nz#CF-DOMAIN10', 'comet57.cf.090227.xyz#CF-DOMAIN11', 
     'youxuan.cf.090227.xyz#CF-DOMAIN13', 'yx.cf.090227.xyz#CF-DOMAIN14', 'cf.yj250.bond#CF-DOMAIN15',
 ];  // 在此感谢各位大佬维护的优选域名
 
